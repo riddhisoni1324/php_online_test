@@ -1,0 +1,10 @@
+
+<?php
+$file='attemptedque.txt';
+$inc=0;
+$handle1=fopen($file,'w');
+fwrite($handle1,$inc);
+fclose($handle1);
+
+
+?>
